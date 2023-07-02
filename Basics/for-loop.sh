@@ -1,8 +1,6 @@
 #!/bin/bash
 
-fruits=("apple" "banana" "orange" "grape")
-
-for fruit in "${fruits[@]}"
+for file in C:\Users\MRAJUCHA\OneDrive - Capgemini\Desktop\2023 - -\My-Case-studies\Linux-Bash-scripts\Basics\testdir*
 do
-    echo "I like ${fruit}s."
+    echo "File: $file"
 done

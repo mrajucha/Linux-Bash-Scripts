@@ -2,18 +2,19 @@
 ### More than basics of scripts ####
 ############ Arrays #############
 
-myarray=("apple" "banana" "orange" "grape")   # with no spaces 
+VARIABLE_NAME="Manoj" By convention variables are Uppercase.
+myList=("I" "Me" "Myself" "Manoj")   # with no spaces 
 
 #echo $my-array   # print only first item
 
-echo ${myarray[@]}  # print all items
+#echo ${myarray[@]}  # print all items
 
 #echo ${my-array[0]}  # print as per the index
 
                   ################# For loop #####################
+# do done --> case sensitive
 
-
-for Prefix in "${myarray[@]}"
+for Prefix in "${myList[@]}"        # quores or no does nont matter
 do
-    echo "I like $myarray"
+    echo "I like ${Prefix}s"     # without {} is fine as well {} to append tesxt to variables
 done                  
