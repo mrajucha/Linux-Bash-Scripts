@@ -26,7 +26,7 @@ echo " What is your login time ??"
 
 read LOGINTIME
 
-if [ $LOGINTIME -lt 9 ]   ## not the brackets it []
+elif [ $LOGINTIME -lt 9 ]   ## not the brackets it []
 then
 echo " Ohh! you are a early bird"
 fi 

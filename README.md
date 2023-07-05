@@ -11,6 +11,8 @@
   --> for loop -- do done --> case sensitive
   -- > All commands, including shell scripts, return an exit status(whether you mentioned).
   -Exit statuses are integers that fall between 0 and 255. An exit status of zero (0) indicates success. A non-zero (1-255) exit status indicates failure.
+
+  -- if else fi is must to close syntactically
  
 ############## Execute the script ############
 ## ./script-name or sh script name #######
