@@ -20,7 +20,7 @@ echo " Shall we start?? Type Y or N"
 
 read MESSAGE
 
-if ["$MESSAGE" -eq "Y"]
+if [ "$MESSAGE" -eq "Y" ]
 then 
 echo " What is your login time ??"
 
